@@ -1,7 +1,8 @@
 import React from 'react'
 
 function Navbar() {
-    const navLinks=[]
+
+    const navLinks=["Work","Service","Contact","Account"]
   return (
     <div className='w-full flex'>
         {/* Logo */}
@@ -15,7 +16,9 @@ function Navbar() {
 								</svg>
 </div>
 {/* Links */}
-<div></div>
+<div>{navLinks.map((item,index)=>(
+  <a key={index} >{item}</a>
+))}</div>
     </div>
   )
 }
