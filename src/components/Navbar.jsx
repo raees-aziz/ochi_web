@@ -17,7 +17,7 @@ function Navbar() {
       </div>
       {/* Links */}
       <div className='link flex gap-10'>{navLinks.map((item, index) => (
-        <a className={`text-2xl capitalize font-light font-['NeueMontreal'] ${index==3 && "ml-90"}`}key={index} >{item}</a>
+        <a className={`text-2xl capitalize font-light font-['Neue Montreal'] ${index==3 && "ml-32"}`}key={index} >{item}</a>
       ))}</div>
     </div>
   )
