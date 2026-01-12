@@ -4,7 +4,7 @@ function Navbar() {
 
   const navLinks = ["Work", "Service", "Contact", "Account"]
   return (
-    <div className='w-full flex justify-between items-center px-20 py-8'>
+    <div className='fixed z-[999] w-full flex justify-between items-center px-20 py-8'>
       {/* Logo */}
       <div className='logo'>
         <svg width="72" height="30" viewBox="0 0 72 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -16,8 +16,8 @@ function Navbar() {
         </svg>
       </div>
       {/* Links */}
-      <div className='link'>{navLinks.map((item, index) => (
-        <a className='text-2xl font-semibold' key={index} >{item}</a>
+      <div className='link flex gap-10'>{navLinks.map((item, index) => (
+        <a className={`text-2xl capitalize font-light font-['NeueMontreal'] ${index==3 && "ml-90"}`}key={index} >{item}</a>
       ))}</div>
     </div>
   )
