@@ -7,7 +7,7 @@ function LandingPage() {
             <div className="textstructure mt-52 px-20">
                 {["We Create", "Eye Opening", "Presentation"].map((item,index) => {
                     return (
-                        <div className="masker">
+                        <div key={index} className="masker">
                             <div className="w-fit flex items-end">
                                 {index==1 && <div className=" w-[7vw] rounded-md h-[5.5vw] top-0 relative bg-green-500">
                                     </div>}
