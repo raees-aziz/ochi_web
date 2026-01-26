@@ -34,7 +34,7 @@ function LandingPage() {
                     );
                 })}
                 <div className="start flex gap-1 items-center">
-                    <div className="px-4 py-2 border-[2px] border-zinc-500 font-light text-md capitalize rounded-full uppercase">
+                    <div className="px-4 py-2 border-[2px] border-zinc-500 font-light text-md  rounded-full uppercase">
                         Start the project
                     </div>
                     <div className="size-10 border-[2px] border-zinc-500 rounded-full flex items-center justify-center">
