@@ -52,26 +52,7 @@ function Feature() {
                         </div>
                     </div>
                 </div>
-                <div className='cards w-full flex gap-10 mt-10'>
-                    {/* left card */}
-                    <div className='cardcontainer relative w-1/2 h-[75vh]'>
-                        <h1 className='absolute left-full -translate-x-1/2 -translate-y-1/2 top-1/2 text-7xl leading-none tracking-tighter font-bold text-[#cdea68]'>
-                            {"RAEES".split('').map((item, index) => <span key={index}>{item}</span>)}
-                        </h1>
-                        <div className='card w-full h-full rounded-xl overflow-hidden bg-green-500'>
-                            <img className='size-full bg-cover' src="/image/project-3.png" alt="" />
-                        </div>
-                    </div>
-                    {/* right card */}
-                    <div className='cardcontainer relative w-1/2 h-[75vh]'>
-                        <h1 className='absolute right-full translate-x-1/2 -translate-y-1/2 top-1/2 text-7xl leading-none tracking-tighter font-bold text-[#cdea68] '>
-                            {"VICE".split('').map((item, index) => <span key={index}>{item}</span>)}
-                        </h1>
-                        <div className='card w-full h-full rounded-xl overflow-hidden bg-green-500'>
-                            <img className='size-full bg-cover' src="/image/project-4.png" alt="" />
-                        </div>
-                    </div>
-                </div>
+               
 
             </div>
         </div>
